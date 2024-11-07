@@ -1,0 +1,10 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=././.lake/build/lib DYLD_LIBRARY_PATH=././.lake/build/lib:/Users/shuffleofficial/.elan/toolchains/leanprover--lean4---v4.11.0/lib/lean:/Users/shuffleofficial/.elan/toolchains/leanprover--lean4---v4.11.0/lib /Users/shuffleofficial/.elan/toolchains/leanprover--lean4---v4.11.0/bin/lean ././././Maze/Tactics.lean -R ./././. -o ././.lake/build/lib/Maze/Tactics.olean -i ././.lake/build/lib/Maze/Tactics.ilean -c ././.lake/build/ir/Maze/Tactics.c --json",
+   "level": "trace"},
+  {"message": "././././Maze/Tactics.lean:12:4: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././././Maze/Tactics.lean:40:11: unused variable `fn`\nnote: this linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"}],
+ "depHash": "4876244327090982846"}
