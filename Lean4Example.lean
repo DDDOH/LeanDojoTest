@@ -12,8 +12,6 @@ def dup (k : Nat) (xs : List Nat) : List Nat :=
   | k' + 1 => xs ++ (dup k' xs)
 
 
-#eval dup 5 [1,2]
-
 theorem test1 : isPalindrome [] := by rfl
 theorem test2 : isPalindrome [1, 2, 1] := by rfl
 theorem test3 : isPalindrome (dup 3 [1]) := by simp [dup]; rfl
